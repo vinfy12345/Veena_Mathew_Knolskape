@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37260" started-at="2017-06-28T04:46:58Z" finished-at="2017-06-28T04:47:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37260" started-at="2017-06-28T04:46:58Z" finished-at="2017-06-28T04:47:35Z">
+      <class name="TestScripts.TS_TodoTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="beforeClass" is-config="true" duration-ms="12495" started-at="2017-06-28T10:16:58Z" finished-at="2017-06-28T10:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="addingToDo()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="addingToDo" duration-ms="894" started-at="2017-06-28T10:17:11Z" finished-at="2017-06-28T10:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingToDo -->
+        <test-method status="PASS" signature="completingToDo()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="completingToDo" duration-ms="425" started-at="2017-06-28T10:17:12Z" finished-at="2017-06-28T10:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completingToDo -->
+        <test-method status="PASS" signature="filteringCompletedToDo()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="filteringCompletedToDo" duration-ms="3620" started-at="2017-06-28T10:17:12Z" finished-at="2017-06-28T10:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteringCompletedToDo -->
+        <test-method status="PASS" signature="filteringAllToDo()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="filteringAllToDo" duration-ms="3596" started-at="2017-06-28T10:17:16Z" finished-at="2017-06-28T10:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteringAllToDo -->
+        <test-method status="PASS" signature="filteringActiveToDo()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="filteringActiveToDo" duration-ms="3591" started-at="2017-06-28T10:17:19Z" finished-at="2017-06-28T10:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteringActiveToDo -->
+        <test-method status="PASS" signature="clearingCompletedToDo()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="clearingCompletedToDo" duration-ms="6934" started-at="2017-06-28T10:17:23Z" depends-on-methods="TestScripts.TS_TodoTest.completingToDo" finished-at="2017-06-28T10:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearingCompletedToDo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestScripts.TS_TodoTest@42d80b78]" name="closeBrowser" is-config="true" duration-ms="5606" started-at="2017-06-28T10:17:30Z" finished-at="2017-06-28T10:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScripts.TS_TodoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
